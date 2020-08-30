@@ -1,0 +1,205 @@
+@media (min-width: 700px) {
+
+    body {
+        font-size: 1.2rem;
+    }
+
+    .navbar {
+        padding: 60px;
+
+        img {
+            width: 180px;
+        }
+    }
+
+    nav {
+        font-size: 1rem;
+
+        ul li {
+            padding-right: 50px;
+        }
+    }
+
+    .main-img {
+        width: 720px;
+    }
+
+    .curve {
+        height: 350px;
+        margin-top: unset;
+    }
+
+
+    .main-board {
+        width: 600px;
+        margin: auto;
+        margin-top: -380px;
+
+        h1 {
+            font-size: 2.2rem;
+        }
+
+        p {
+            width: 500px;
+            margin: auto;
+        }
+    }
+
+
+    #features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        :nth-child(2) {
+            img {
+                padding-bottom: 10px;
+                padding-top: 0;
+            }
+        }
+
+        .feature-box {
+            width: 520px;
+            padding: 0 80px;
+            margin-bottom: 60px;
+
+            h2 {
+                font-size: 1.3rem;
+                padding-bottom: 5px;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #how-works {
+        justify-content: center;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        >img {
+            width: 614px;
+            margin: unset;
+
+        }
+
+        .hw-wrapper {
+            width: 500px;
+            min-width: 500px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 50px;
+
+            h2 {
+                font-size: 1.9rem;
+
+            }
+
+            p {
+                padding: 0;
+
+            }
+        }
+    }
+
+    #testimonies {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 150px;
+        font-size: 1rem;
+        flex-wrap: wrap;
+
+        >img {
+            width: 70px;
+            margin-top: 8px;
+        }
+
+        .testimony {
+            width: 360px;
+
+            .profile {
+
+                img{
+                    width: 45px;
+                    border-radius: 20px;
+                }
+
+                p {
+                    font-size: 0.9rem;
+                }
+
+                .position {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+
+    #sign-up {
+        width: 700px;
+        margin: auto;
+        margin-bottom: -115px;
+
+        h2 {
+            font-size: 1.9rem;
+        }
+
+        form {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        input {
+            width: 400px;
+        }
+
+        button {
+            width: 200px;
+        }
+    }
+
+    footer {
+        >img {
+            margin-left: 100px;
+        }
+
+        .footer-wrapper {
+            display: flex;
+            margin-left: 50px;
+
+            .box {
+                padding: 50px;
+                padding-top: 0;
+            }
+        }
+
+        .contact {
+            display: flex;
+            font-size: 1rem;
+            line-height: 1.5;
+
+            img {
+                margin-right: 23px;
+                padding-top: 5px;
+            }
+
+            .location {
+                width: 470px;
+            }
+        }
+    }
+
+    .footer-links {
+        flex-direction: row;
+        .about {
+            margin: unset;
+        }
+    }
+
+}
